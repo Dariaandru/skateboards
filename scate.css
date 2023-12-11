@@ -1,0 +1,199 @@
+html{
+    color: white;
+    font-size: 14px;
+}
+*{
+    background-color: rgb(21, 21, 79);
+}
+.sidebar{
+    width: 200px;
+    height: 100vh;
+}
+.title{
+    margin: 20px;
+    font-size: 20px;
+
+}
+.menu{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin: 20px;
+    /* height: 300px; */
+
+
+}
+
+.list1{
+    height: 300px;
+}
+
+.list2{
+    height: 250px;
+}
+.elementmenu{
+    margin-top:10px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.t{
+    padding-top: 7px;
+}
+
+.menu1-1{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: orange;
+    position: relative;
+    margin-top: 15px;
+
+
+}
+.menu1{
+    appearance:none;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: 5px;
+    /* background-color: blue; */
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    position: absolute;
+    background-color: white;
+    -webkit-mask-image: url(./Home.svg) 
+}
+
+.menu11{
+    appearance:none;
+    padding: 0px;
+    margin-top: 15px;
+    /* margin-left: 5px; */
+    /* background-color: blue; */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    /* position: absolute; */
+    background-color: white;
+    -webkit-mask-image: url(./11.svg) 
+}
+
+.menu2{
+    appearance:none;
+    padding: 0px;
+    margin-top: 15px;
+    /* margin-right: 15px; */
+    /* background-color: blue; */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    /* position: absolute; */
+    background-color: white;
+    -webkit-mask-image: url(./svgmenu/2.svg) 
+}
+
+.menu3{
+    appearance:none;
+    padding: 0px;
+    margin-top: 15px;
+    /* margin-right: 15px; */
+    /* background-color: blue; */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    /* position: absolute; */
+    background-color: white;
+    -webkit-mask-image: url(./3.svg) 
+}
+
+.menu4{
+    appearance:none;
+    padding: 0px;
+    margin-top: 15px;
+    /* margin-right: 15px; */
+    /* background-color: blue; */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    /* position: absolute; */
+    background-color: white;
+    -webkit-mask-image: url(./4.svg) 
+}
+
+.menu5{
+    appearance:none;
+    padding: 0px;
+    margin-top: 15px;
+    /* margin-right: 15px; */
+    /* background-color: blue; */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    /* position: absolute; */
+    background-color: white;
+    -webkit-mask-image: url(./5.svg) 
+}
+
+.button{
+    
+    padding: 0px;
+    margin-top: 0px;
+    /* margin-right: 15px; */
+    /* background-color: blue; */
+    width: 30px;
+    height: 20px;
+    
+    transition: 0.5s;
+    position: relative;
+    background-color: blueviolet;
+    border-radius: 40%;
+    /* -webkit-mask-image: url(./Switch.svg)  */
+}
+
+.button1{
+ 
+    padding: 0px;
+    margin-top: -20px;
+    margin-left: 15px;
+    /* background-color: blue; */
+    width: 20px;
+    height: 20px;
+    
+    /* transition: 0.5s; */
+    position: absolute;
+    background-color:white;
+    border-radius: 50%;
+    /* -webkit-mask-image: url(./knob.svg)  */
+}
+
+.b{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button1::after{
+    margin-top: -20px;
+    margin-left: -15px;
+    /* background-color: blue; */
+    width: 20px;
+    height: 20px;
+    
+    /* transition: 0.5s; */
+    position: absolute;
+    background-color:white;
+    border-radius: 50%;
+}
