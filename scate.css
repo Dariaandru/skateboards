@@ -541,3 +541,66 @@ html{
     
     
 }
+
+
+/* ava */
+.container{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    position: absolute;
+}
+
+.image{
+    width: 100%;
+    height: 130%;
+    aspect-ratio: 1 / 6;
+    object-fit: cover;
+    scale: 1.3;
+    /* position: relative; */
+}
+
+.imageg{
+    width: 100%;
+    height: 90%;
+    aspect-ratio: 1 / 6;
+    object-fit: cover;
+    scale: 1.3;
+    /* position: relative; */
+}
+
+.circleframe{
+    /* margin: 30px; */
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.gal{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 7px;
+    right: -3px;
+    /* border-radius: 50%; */
+    /* background-color: white; */
+
+}
+
+.gal1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: -3px;
+    right: -3px;
+    /* border-radius: 50%; */
+    /* background-color: white; */
+
+}
+
+/* ava */
