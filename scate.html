@@ -7,185 +7,330 @@
     <link rel="stylesheet" href="scate.css">
 </head>
 <body>
-    <div class="sidebar">
-        <div class="title">
-            <b>
-                scateboard
-            </b>
-        </div>
-        <div class="menu">
-            menu
-            <div class="list1">
+    <div class="all">
 
-                <div class="elementmenu">
-                    <div class="menu1-1"></div>
-                    <input class = "menu1"  type="checkbox" id="">
-                    <p class="t">
-                        <b>
-                            Discover
-                        </b>
+
+        
+        <div class="sidebar">
+            <div class="title">
+                <b>
+                    scateboard
+                </b>
+            </div>
+            <div class="menu">
+                menu
+                <div class="list1">
+    
+                    <div class="elementmenu">
+                        <div class="menu1-1">
+    
+                            <input class = "menu1"  type="checkbox" id="">
+                        </div>
+                        <p class="t bel">
+                            <b>
+                                Discover
+                            </b>
+                            
+                        </p>
                         
-                    </p>
-                    
+                    </div>
+        
+                    <div class="elementmenu">
+                        <input class = "menu2"  type="checkbox" id="">
+                        <p class="t">
+                            Trending
+                        </p>
+                        
+                    </div>
+        
+                    <div class="elementmenu">
+                        <input class = "menu3"  type="checkbox" id="">
+                        <p class="t">
+                            Streaming
+                        </p>
+                        
+                    </div>
+        
+                    <div class="elementmenu">
+                        <input class = "menu4"  type="checkbox" id="">
+                        <p class="t">
+                            Playlist
+                        </p>
+                        
+                    </div>
+        
+                    <div class="elementmenu">
+                        <input class = "menu5"  type="checkbox" id="">
+                        <p class="t">
+                            Bookmark
+                        </p>
+                        
+                    </div>
                 </div>
-    
-                <div class="elementmenu">
-                    <input class = "menu2"  type="checkbox" id="">
-                    <p class="t">
-                        Trending
-                    </p>
-                    
-                </div>
-    
-                <div class="elementmenu">
-                    <input class = "menu3"  type="checkbox" id="">
-                    <p class="t">
-                        Streaming
-                    </p>
-                    
-                </div>
-    
-                <div class="elementmenu">
-                    <input class = "menu4"  type="checkbox" id="">
-                    <p class="t">
-                        Playlist
-                    </p>
-                    
-                </div>
-    
-                <div class="elementmenu">
-                    <input class = "menu5"  type="checkbox" id="">
-                    <p class="t">
-                        Bookmark
-                    </p>
-                    
-                </div>
-            </div>
-            <hr>
-
-        </div>
-
-
-
-        <div class="menu">
-            category
-            <div class="list2">
-
-                <div class="elementmenu">
-                    <input class = "menu11"  type="checkbox" id="">
-                    <p class="t">
-                        Live Stream
-                    </p>
-                    
-                </div>
-    
-                <div class="elementmenu">
-                    <input class = "menu2"  type="checkbox" id="">
-                    <p class="t">
-                        Tutorial
-                    </p>
-                    
-                </div>
-    
-                <div class="elementmenu">
-                    <input class = "menu3"  type="checkbox" id="">
-                    <p class="t">
-                        Competition
-                    </p>
-                    
-                </div>
-    
-                <div class="elementmenu">
-                    <input class = "menu4"  type="checkbox" id="">
-                    <p class="t">
-                        Community
-                    </p>
-                    
-                </div>
+                <hr>
     
             </div>
-            <hr>
-
-            
-            
-            
-            <div class="b">
-                <div>
-                    
-                    <div class = "button" id=""></div>
-                    <div class = "button1"></div>
+    
+    
+    
+            <div class="menu">
+                category
+                <div class="list2">
+    
+                    <div class="elementmenu">
+                        <input class = "menu11"  type="checkbox" id="">
+                        <p class="t">
+                            Live Stream
+                        </p>
+                        
+                    </div>
+        
+                    <div class="elementmenu">
+                        <input class = "menu2"  type="checkbox" id="">
+                        <p class="t">
+                            Tutorial
+                        </p>
+                        
+                    </div>
+        
+                    <div class="elementmenu">
+                        <input class = "menu3"  type="checkbox" id="">
+                        <p class="t">
+                            Competition
+                        </p>
+                        
+                    </div>
+        
+                    <div class="elementmenu">
+                        <input class = "menu4"  type="checkbox" id="">
+                        <p class="t">
+                            Community
+                        </p>
+                        
+                    </div>
+        
                 </div>
-                Night mode
+                <hr>
+    
+    <div class="b">
+    
+        <label class="toggle-button">
+            <input type="checkbox" onclick="toggleSwitch()">
+            <span class="toggle-slider"></span>
+            </label>
+            
+            <script>
+            function toggleSwitch() {
+                // Получаем ссылку на элемент переключателя
+                const toggle = document.querySelector(".toggle-button input");
+                
+                // Получаем ссылку на элемент ползунка
+                const slider = document.querySelector(".toggle-slider");
+                
+                // Переключаем класс активного состояния
+                slider.classList.toggle("active", toggle.checked);
+            }
+            </script>
+        <div class="n">Night mode</div>
+         
+                    </div>
+                </div>
+            </div>
+            
+        <div class="content">
 
+            <div class="corner">
+
+                <div class="search">
+                    Search
+                    <input class = "lupa"  type="checkbox" id="">
+                </div>
+                <div class="thomas">
+                    <img src="./thomas.png" alt="" width="25">
+                    Thomas
+                    <input class = "down"  type="checkbox" id="">
+                    <img src="./zvonok.png" alt="" width="15">
+                </div>
+            </div>
+    
+            <h1>
+                Discover
+            </h1>
+            <div class="twoblocks">
+
+                <div class="blueblock">
+                    <img class="imageblue" src="./blue.png" alt="" >
+                    <div class="autorblue">
+                        How to do Basic Jumping and how to landing safely
+                        <div class="iconautor">
+                            <div class="iconb">
+                                <img src="./iconb.png" alt="">
+                            </div>
+                            <div class="autorb2">
+                                Thomas Hope
+                                <div class="autorb3">
+                                    53K views  •  2 weeks ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time" align="center">
+                        7 min
+                    </div>
+                </div>
+
+
+
+                <div class="cardwrapper">
+
+                <img class="cardimage" src="./orange.png" alt="" >
+                    <div class="autor">
+                        <b>Skateboad Tips You need to know</b>
+                        <div class="autor2">
+                            Tony Andrew
+                        </div>
+                        <div class="autor3">
+                            53K views  •  2 weeks ago
+                        </div>
+                        <div class="icon1">
+                            <img src="./icon1.png" alt="" width="60">
+                        </div>
+                        
+                    </div>
+                        <div class="time" align="center">
+                            10 min  
+                        </div>
+                </div>
 
                 
-  <style>
-    .toggle-button {
-      position: relative;
-      display: inline-block;
-      width: 60px;
-      height: 34px;
-    }
-
-    .toggle-button input {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    }
-
-    .toggle-slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #ccc;
-      transition: .4s;
-    }
-
-    .toggle-slider:before {
-      position: absolute;
-      content: "";
-      height: 26px;
-      width: 26px;
-      left: 4px;
-      bottom: 4px;
-      background-color: white;
-      transition: .4s;
-    }
-
-    input:checked + .toggle-slider {
-      background-color: #2196F3;
-    }
-
-    input:checked + .toggle-slider:before {
-      transform: translateX(26px);
-    }
-  </style>
-</head>
-<body>
-  <label class="toggle-button">
-    <input type="checkbox" onclick="toggleSwitch()">
-    <span class="toggle-slider"></span>
-  </label>
-  
-  <script>
-    function toggleSwitch() {
-      // Получаем ссылку на элемент переключателя
-      const toggle = document.querySelector(".toggle-button input");
-      
-      // Получаем ссылку на элемент ползунка
-      const slider = document.querySelector(".toggle-slider");
-      
-      // Переключаем класс активного состояния
-      slider.classList.toggle("active", toggle.checked);
-    }
-  </script>
-
-
+                
             </div>
-        </div>
+            <h1 class="header2">Most Watched</h1>
+            <div class="fourblocks">
+
+                <!-- 1 picture -->
+                <div class="pic1">
+                    <img class="img1" src="./pic1.png" alt="">
+                    <div class="time2" align="center">
+                        7 min
+                    </div>
+                    <div class="icond1">
+                        <img src="./icond1.png" alt="">
+                    </div>
+                    <div class="abs">
+
+                        <div class="textcircle">
+                            <div class="text11">
+                                Andy William
+                            </div>
+                            <div class="circle green">
+    
+                            </div>
+                        </div>
+                        <div class="text2">
+                            Basic how to ride your skateboard comfortly
+                        </div>
+                        <div class="text3">
+                            53K views  •  2 weeks ago
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 2 picture -->
+
+                <div class="pic1">
+                    <img class="img1" src="./pic2.png" alt="">
+                    <div class="time2" align="center">
+                        7 min
+                    </div>
+                    <div class="icond1">
+                        <img src="./icond2.png" alt="">
+                    </div>
+                    <div class="abs">
+
+                        <div class="textcircle">
+                            <div class="text11">
+                                Johny Wise
+                            </div>
+                            <div class="circle orange">
+    
+                            </div>
+                        </div>
+                        <div class="text2">
+                            Prepare for your first skateboard jump
+                        </div>
+                        <div class="text3">
+                            53K views  •  2 weeks ago
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 picture -->
+
+                <div class="pic1">
+                    <img class="img1" src="./pic3.png" alt="">
+                    <div class="time2" align="center">
+                        7 min
+                    </div>
+                    <div class="icond1">
+                        <img src="./icond3.png" alt="">
+                    </div>
+                    <div class="abs">
+
+                        <div class="textcircle">
+                            <div class="text11">
+                                Budi Hakim
+                            </div>
+                            <div class="circle orange">
+    
+                            </div>
+                        </div>
+                        <div class="text2">
+                            Tips to playing <br>skateboard on the ramp
+                        </div>
+                        <div class="text3">
+                            53K views  •  2 weeks ago
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 4 picture -->
+
+                <div class="pic1">
+                    <img class="img1" src="./pic4.png" alt="">
+                    <div class="time2" align="center">
+                        7 min
+                    </div>
+                    <div class="icond1">
+                        <img src="./icond4.png" alt="">
+                    </div>
+                    <div class="abs">
+
+                        <div class="textcircle">
+                            <div class="text11">
+                                Wijaya Abadi
+                            </div>
+                            <div class="circle green">
+    
+                            </div>
+                        </div>
+                        <div class="text2">
+                            Basic Equipment to play skateboard safely
+                        </div>
+                        <div class="text3">
+                            53K views  •  2 weeks ago
+                        </div>
+                    </div>
+                </div>
+
+            
+            </div>
     </div>
+   
+
+
 </body>
 </html>
